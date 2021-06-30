@@ -1,0 +1,16 @@
+.prj-links-container ul{
+    list-style-type: none;
+}
+.prj-links-container li{
+    padding: 15px 0;
+}
+.prj-links-container a{
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.prj-links-container a:hover{
+    color: red;
+}
