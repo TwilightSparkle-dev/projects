@@ -1,0 +1,449 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кальк</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body>
+
+<link rel="stylesheet" href="template/css/ui.theme.css">
+<link rel="stylesheet" href="template/css/ui.slider.css">
+<link rel="stylesheet" href="template/css/wincalc.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="template/js/wincalc.js"></script>
+
+
+<div class='full-width'>
+    <div class='content'>
+        <div class='wincalc-17'>
+            <div class='wincalc-type2-selector'>
+                Тип профиля
+                <div>
+                    <input type='radio' name='wincalc-type2-selector' data-btype2='p1' checked="checked"
+                           id='wincalc-type2-selector-1'><label
+                        for='wincalc-type2-selector-1'>Стандарт<span>VEKA WHS 60</span></label>
+                    <input type='radio' name='wincalc-type2-selector' data-btype2='p2'
+                           id='wincalc-type2-selector-2'><label
+                        for='wincalc-type2-selector-2'>Комфорт<span>VEKA WHS 72</span></label>
+                    <input type='radio' name='wincalc-type2-selector' data-btype2='p3'
+                           id='wincalc-type2-selector-3'><label
+                        for='wincalc-type2-selector-3'>Мира<span>VEKA Mira</span></label>
+                    <input type='radio' name='wincalc-type2-selector' data-btype2='p4'
+                           id='wincalc-type2-selector-4'><label for='wincalc-type2-selector-4'>Идеал<span>VEKA SOFTLINE 70</span></label>
+                </div>
+            </div>
+
+            <div class='wincalc-type-selector'>
+                <div>Тип окна</div>
+                <div class='wincalc-type-selector-one' data-btype='1'><img src='template/img/win-1-t.png'><br><span
+                        class="block-mobile-hidden">Одностворчатое окно</span><span
+                        class="block-mobile-only">1 створка</span></div>
+                <div class='wincalc-type-selector-one wincalc-type-selector-one-selected' data-btype='2'><img
+                        src='template/img/win-2-t.png'><br><span
+                        class="block-mobile-hidden">Двухстворчатое окно</span><span
+                        class="block-mobile-only">2 створки</span></div>
+                <div class='wincalc-type-selector-one' data-btype='3'><img src='template/img/win-3-t.png'><br><span
+                        class="block-mobile-hidden">Трехстворчатое окно</span><span
+                        class="block-mobile-only">3 створки</span></div>
+                <div class='wincalc-type-selector-one' data-btype='b'><img src='template/img/win-b-t.png'><br><span
+                        class="block-mobile-hidden">Балконый блок</span><span class="block-mobile-only">Балкон</span>
+                </div>
+            </div>
+
+            <div class='wincalc-main-window'>
+                <div class='wincalc-main-window-container'>
+                    <div class='wincalc-vertical-slider'>
+                        <div class='wincalc-vertical-slider-max text-rotate-270'>2500</div>
+                        <div class='wincalc-vertical-slider-counter text-rotate-270'>1300</div>
+                        <div class='wincalc-vertical-slider-ui'></div>
+                        <div class='wincalc-vertical-slider-min text-rotate-270'>500</div>
+                    </div>
+
+                    <div class='wincalc-constuction'>
+                        <img src=''>
+                    </div>
+
+                    <div class='wincalc-frames'>
+                        <div class='wincalc-frame wincalc-frame-1'>
+
+                            <div class='wincalc-frame-selector'>
+                                <div class='wincalc-frame-selector-g'>Глухая створка</div>
+                                <div class='wincalc-frame-selector-p wincalc-frame-selector-selected'>Поворотная
+                                    створка
+                                </div>
+                                <div class='wincalc-frame-selector-o'>Поворотно-откидная створка</div>
+                            </div>
+                            <img src='template/img/window-s.png'>
+                        </div>
+
+                        <div class='wincalc-frame wincalc-frame-2'>
+
+                            <div class='wincalc-frame-selector'>
+                                <div class='wincalc-frame-selector-g wincalc-frame-selector-selected'>Глухая створка
+                                </div>
+                                <div class='wincalc-frame-selector-p'>Поворотная створка</div>
+                                <div class='wincalc-frame-selector-o'>Поворотно-откидная створка</div>
+                            </div>
+                            <img src='template/img/window-s2.png'>
+                        </div>
+
+                        <div class='wincalc-frame wincalc-frame-3'>
+
+                            <div class='wincalc-frame-selector'>
+                                <div class='wincalc-frame-selector-g'>Глухая створка</div>
+                                <div class='wincalc-frame-selector-p wincalc-frame-selector-selected'>Поворотная
+                                    створка
+                                </div>
+                                <div class='wincalc-frame-selector-o'>Поворотно-откидная створка</div>
+                            </div>
+                            <img src='template/img/window-s.png'>
+                        </div>
+
+
+                    </div>
+
+                    <div class='wincalc-horisontal-slider'>
+                        <div class='wincalc-horisontal-slider-min'>500</div>
+                        <div class='wincalc-horisontal-slider-counter'>4500</div>
+                        <div class='wincalc-horisontal-slider-ui'></div>
+                        <div class='wincalc-horisontal-slider-max'>5000</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='wincalc-size-selector block-2-items'>
+                <div class='block-items-wrapper'>
+                    <div>Ширина<br><input type='text' id='wincalc-size-selector-x'></div>
+                    <div>Высота<br><input type='text' id='wincalc-size-selector-y'></div>
+                </div>
+            </div>
+
+            <div class='wincalc-options block-2-items'>
+                <div class='block-items-wrapper'>
+                    <div><input type='checkbox' name='wincalc-options-1' id='wincalc-options-1'><label
+                            for='wincalc-options-1'>Монтаж<br><span><span>+1 500</span><span
+                            class='rub'>руб.</span></span></label></div>
+                    <div><input type='checkbox' name='wincalc-options-2' id='wincalc-options-2'><label
+                            for='wincalc-options-2'>Подоконник<br><span><span>+1 100</span><span class='rub'>руб.</span></span></label>
+                    </div>
+                    <div><input type='checkbox' name='wincalc-options-3' id='wincalc-options-3'><label
+                            for='wincalc-options-3'>Отлив<br><span><span>+700</span><span class='rub'>руб.</span></span></label>
+                    </div>
+                    <div><input type='checkbox' name='wincalc-options-4' id='wincalc-options-4'><label
+                            for='wincalc-options-4'>Откосы<br><span><span>+7 200</span><span
+                            class='rub'>руб.</span></span></label></div>
+                </div>
+            </div>
+
+
+            <div class='wincalc-price'>
+                Стоимость:
+                <br><span class='wincalc-price-value'>14 500</span> <span class='rub'>руб.</span>
+                <div class='wincalc-button button-square text-size-14 button-callkeeper'>Заказать</div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!--<style>-->
+<!--.c16_step21_window_opening_selector {-->
+<!--float: left;-->
+<!--width: 440px;-->
+<!--margin-top: 0px;-->
+<!--padding-top: 5px;-->
+<!--font-size: 18px;-->
+<!--margin-bottom: 5px;-->
+
+<!--}-->
+<!--.c16_step21_warning {-->
+<!--float: left;-->
+<!--width: 405px;-->
+<!--margin-left: 35px;-->
+<!--font-size: 15px;-->
+<!--line-height: 16px;-->
+<!--}-->
+<!--.c16_step21_window_opening_selector > div > span {-->
+<!--display: block;-->
+<!--padding: 4px 5px;-->
+<!--background: #f52016;-->
+<!--color: white;-->
+<!--border-radius: 20px;-->
+<!--width: 21px;-->
+<!--height: 21px;-->
+<!--float: left;-->
+<!--font-size: 12px;-->
+<!--margin: 5px 10px 0px 0px;-->
+<!--text-align: center;-->
+<!--font-size: 14px;-->
+<!--line-height: 14px;-->
+<!--}-->
+<!--.c16_info_icon{-->
+<!--line-height: 18px;-->
+<!--}-->
+<!--</style>-->
+
+<footer id="footer">
+
+</footer>
+
+</body>
+</html>
+
+
+<link rel="stylesheet" href="/wp-content/themes/flash/calc/template/css/ui.theme.css">
+<link rel="stylesheet" href="/wp-content/themes/flash/calc/template/css/ui.slider.css">
+<link rel="stylesheet" href="/wp-content/themes/flash/calc/template/css/wincalc.css">
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="/wp-content/themes/flash/calc/template/js/wincalc.js"></script>
+
+
+<div class='full-width'>
+    <div class='content'>
+        <div class='wincalc-17'>
+            <div class='wincalc-type2-selector'>
+                Тип профиля
+                <div>
+                    <input type='radio' name='wincalc-type2-selector' data-btype2='p1' checked="checked"
+                           id='wincalc-type2-selector-1'><label
+                        for='wincalc-type2-selector-1'>Стандарт<span>VEKA WHS 60</span></label>
+                    <input type='radio' name='wincalc-type2-selector' data-btype2='p2'
+                           id='wincalc-type2-selector-2'><label
+                        for='wincalc-type2-selector-2'>Комфорт<span>VEKA WHS 72</span></label>
+                    <input type='radio' name='wincalc-type2-selector' data-btype2='p3'
+                           id='wincalc-type2-selector-3'><label
+                        for='wincalc-type2-selector-3'>Мира<span>VEKA Mira</span></label>
+                    <input type='radio' name='wincalc-type2-selector' data-btype2='p4'
+                           id='wincalc-type2-selector-4'><label for='wincalc-type2-selector-4'>Идеал<span>VEKA SOFTLINE 70</span></label>
+                </div>
+            </div>
+
+            <div class='wincalc-type-selector'>
+                <div>Тип окна</div>
+                <div class='wincalc-type-selector-one' data-btype='1'><img
+                        src='/wp-content/themes/flash/calc/template/img/win-1-t.png'><br><span
+                        class="block-mobile-hidden">Одностворчатое окно</span><span
+                        class="block-mobile-only">1 створка</span></div>
+                <div class='wincalc-type-selector-one wincalc-type-selector-one-selected' data-btype='2'><img
+                        src='/wp-content/themes/flash/calc/template/img/win-2-t.png'><br><span
+                        class="block-mobile-hidden">Двухстворчатое окно</span><span
+                        class="block-mobile-only">2 створки</span></div>
+                <div class='wincalc-type-selector-one' data-btype='3'><img
+                        src='/wp-content/themes/flash/calc/template/img/win-3-t.png'><br><span
+                        class="block-mobile-hidden">Трехстворчатое окно</span><span
+                        class="block-mobile-only">3 створки</span></div>
+                <div class='wincalc-type-selector-one' data-btype='b'><img
+                        src='/wp-content/themes/flash/calc/template/img/win-b-t.png'><br><span
+                        class="block-mobile-hidden">Балконый блок</span><span class="block-mobile-only">Балкон</span>
+                </div>
+            </div>
+
+            <div class='wincalc-main-window'>
+                <div class='wincalc-main-window-container'>
+                    <div class='wincalc-vertical-slider'>
+                        <div class='wincalc-vertical-slider-max text-rotate-270'>2500</div>
+                        <div class='wincalc-vertical-slider-counter text-rotate-270'>1300</div>
+                        <div class='wincalc-vertical-slider-ui'></div>
+                        <div class='wincalc-vertical-slider-min text-rotate-270'>500</div>
+                    </div>
+
+                    <div class='wincalc-constuction'>
+                        <img src='#'>
+                    </div>
+
+                    <div class='wincalc-frames'>
+                        <div class='wincalc-frame wincalc-frame-1'>
+
+                            <div class='wincalc-frame-selector'>
+                                <div class='wincalc-frame-selector-g'>Глухая створка</div>
+                                <div class='wincalc-frame-selector-p wincalc-frame-selector-selected'>Поворотная
+                                    створка
+                                </div>
+                                <div class='wincalc-frame-selector-o'>Поворотно-откидная створка</div>
+                            </div>
+                            <img src='/wp-content/themes/flash/calc/template/img/window-s.png'>
+                        </div>
+
+                        <div class='wincalc-frame wincalc-frame-2'>
+
+                            <div class='wincalc-frame-selector'>
+                                <div class='wincalc-frame-selector-g wincalc-frame-selector-selected'>Глухая створка
+                                </div>
+                                <div class='wincalc-frame-selector-p'>Поворотная створка</div>
+                                <div class='wincalc-frame-selector-o'>Поворотно-откидная створка</div>
+                            </div>
+                            <img src='/wp-content/themes/flash/calc/template/img/window-s2.png'>
+                        </div>
+
+                        <div class='wincalc-frame wincalc-frame-3'>
+
+                            <div class='wincalc-frame-selector'>
+                                <div class='wincalc-frame-selector-g'>Глухая створка</div>
+                                <div class='wincalc-frame-selector-p wincalc-frame-selector-selected'>Поворотная
+                                    створка
+                                </div>
+                                <div class='wincalc-frame-selector-o'>Поворотно-откидная створка</div>
+                            </div>
+                            <img src='/wp-content/themes/flash/calc/template/img/window-s.png'>
+                        </div>
+
+
+                    </div>
+
+                    <div class='wincalc-horisontal-slider'>
+                        <div class='wincalc-horisontal-slider-min'>500</div>
+                        <div class='wincalc-horisontal-slider-counter'>4500</div>
+                        <div class='wincalc-horisontal-slider-ui'></div>
+                        <div class='wincalc-horisontal-slider-max'>5000</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='wincalc-size-selector block-2-items'>
+                <div class='block-items-wrapper'>
+                    <div>Ширина<br><input type='text' id='wincalc-size-selector-x'></div>
+                    <div>Высота<br><input type='text' id='wincalc-size-selector-y'></div>
+                </div>
+            </div>
+
+            <div class='wincalc-options block-2-items'>
+                <div class='block-items-wrapper'>
+                    <div><input type='checkbox' name='wincalc-options-1' id='wincalc-options-1'><label
+                            for='wincalc-options-1'>Монтаж<br><span><span>+1 500</span><span
+                            class='grn'>грн.</span></span></label></div>
+                    <div><input type='checkbox' name='wincalc-options-2' id='wincalc-options-2'><label
+                            for='wincalc-options-2'>Подоконник<br><span><span>+1 100</span><span class='grn'>грн.</span></span></label>
+                    </div>
+                    <div><input type='checkbox' name='wincalc-options-3' id='wincalc-options-3'><label
+                            for='wincalc-options-3'>Отлив<br><span><span>+700</span><span class='grn'>грн.</span></span></label>
+                    </div>
+                    <div><input type='checkbox' name='wincalc-options-4' id='wincalc-options-4'><label
+                            for='wincalc-options-4'>Откосы<br><span><span>+7 200</span><span
+                            class='grn'>грн.</span></span></label></div>
+                </div>
+            </div>
+
+
+            <div class='wincalc-price'>
+                Стоимость:
+                <br><span class='wincalc-price-value'>14 500</span> <span class='grn'>грн.</span>
+                <div class='wincalc-button button-square text-size-14 button-callkeeper'>Заказать</div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div id="homeModal1" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content" style="margin-top: 30%;">
+            <!-- Заголовок модального окна -->
+            <div class="modal-header">
+                <!-- <h4 class="modal-title text-center">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</h4> -->
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+
+            </div>
+            <!-- Основное содержимое модального окна -->
+            <div class="modal-body">
+
+
+                <div class="form__title text-center">СДЕЛАТЬ ЗАКАЗ</div>
+
+                <div class="form-group">
+                    <div class="field-block name-field">
+                        <input type="text" class="input-w-placeholder" id="rost_sale_form-name" name="name"
+                               aria-label="Имя" placeholder="Имя">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="field-block phone-field">
+                        <input type="text" class="input-w-placeholder phone" id="rost_sale_form-phone" name="phone"
+                               aria-label="Телефон" placeholder="+38 (0__) ___ __ __">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="field-block name-field">
+                        <input type="text" class="input-w-placeholder phone" id="rost_sale_form-email" name="phone"
+                               aria-label="Email" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-primary center-block" id="rost_sale_form-submit" type="submit">Отправить
+                    </button>
+                </div>
+            </div> <!-- .jxo-step-form -->
+
+
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $('#rost_sale_form-submit').click(function () {
+
+        var user_name = $('#rost_sale_form-name').val(),
+            user_phone = $('#rost_sale_form-phone').val(),
+            error = false;
+
+
+        if (user_name == '') {
+            $('#rost_sale_form-name').css('border', 'solid 2px red');
+
+            error = true;
+        } else {
+            $('#rost_sale_form-name').css('border', 'solid 2px green');
+        }
+
+
+        if (user_phone == '') {
+            $('#rost_sale_form-phone').css('border', 'solid 2px red');
+
+            error = true;
+        } else {
+            $('#rost_sale_form-phone').css('border', 'solid 2px green');
+        }
+
+        if (error) {
+            return false;
+        }
+
+
+        $.post('/send_mail.php',
+            {
+
+                user_name: user_name,
+                user_phone: user_phone
+            },
+            function (data) {
+
+                $("#homeModal1").modal('hide');
+                $("#homeModal5").modal('show');
+
+            });
+        return false;
+
+
+    });
+
+
+    $('#home_modal_one').click(function () {
+
+        $("#homeModal1").modal('show');
+
+    });
+
+</script>
+
+
